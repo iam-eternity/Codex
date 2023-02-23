@@ -64,7 +64,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
   
-  const response = await fetch('https://codex-37ll.onrender.com',{
+  const response = await fetch('https://codex-hyja.onrender.com',{
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
